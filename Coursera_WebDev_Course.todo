@@ -1,0 +1,65 @@
+Coursera
+HTML, CSS, and Javascript for Web Developers
+https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome
+
+
+Git:
+
+  git add .
+  git commit -m " "
+  git push
+  git pull
+
+Git Book
+
+Browser-Sync:
+  Command to call from command line to set up a local "server"
+  https://www.browsersync.io/
+    -browser-sync start --server --directory --files "*" (watches for changes on the files)
+
+Other Resources:
+  - codepen.io
+  - https://jsfiddle.net/
+
+
+Source to keep up on Web Standards:
+ - W3C www.w3.org/TR/html5/
+ - CanIUse www.caniuse.com
+ - W3C Validator - www.validator.w3.org
+ - Browser Statistics - w3schools.com/browsers/browsers_stats.asp
+
+Content Models:
+  - Block-Level Elements (HTML5 - roughly Flow Content)
+    - files render to begin on a new line (by default)
+    - may contain inline or other block elements
+  - Inline Elements (HTML5 - roughly Phrasing Content)
+    - render on the same line (by default)
+    - may only contain other inline elements
+
+   HTML5 replaces these definitiions with more complex set of content categories
+   However, this distinction remains practical because it aligns well with existing CSS rules
+
+
+Elements (6):
+  - Semantic
+    - element that implies some meaning to the content
+    - humans and/or machines can understand meaning of content surrounded by semantic element better
+    - may help search engin ranking
+    - elements should only be used for structure
+    - semantic elements allow for more meaningul expression of the the structure of the HTML page
+
+Lists (7):
+  - lists provide a natural and commonly used groupings for content
+  - lists are useful for structuring navigation portions of the web page
+ 
+HTML Character Entity References (8):
+  - help avoid rendering issues
+  - provide characters not available on the keyboard
+  - saftguard against more limited character encoding (e.g., some html emails)
+  - Common
+    - < = &lt;
+    - > = &gt;
+    - & = &amp;
+    - copyright = &copy;
+    - non-breaking space - &nbsp; replaces space and keeps affected text together during breaks; should never be used to force extraspaces
+    - 
